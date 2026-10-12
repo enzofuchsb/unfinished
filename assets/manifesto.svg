@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-label="Manifesto: nada aqui está terminado, nem a página, nem o código, nem quem escreve. Toda manobra começa pela queda, todo arquivo começa pela falta, toda versão de mim é o rascunho da próxima. Unfinished não é desculpa, é direção.">
+<title>Manifesto</title>
+<rect width="1200" height="660" fill="#080808"/>
+<g opacity="0.95">
+  <animateTransform attributeName="transform" type="translate" values="0 0;-8 4;0 0" dur="12s" repeatCount="indefinite"/>
+  <polygon fill="#b52f2b" points="1200,0 1200,660 1130,660 1150,514 1096,435 1128,343 1070,250 1104,158 1056,79 1090,0"/>
+</g>
+<circle cx="1000" cy="590" r="22" fill="#b52f2b"><animate attributeName="r" values="22;26;22" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="930" cy="60" r="8" fill="#b52f2b"/>
+<line x1="60" y1="70" x2="60" y2="600" stroke="#f2f0eb" stroke-opacity="0.18" stroke-width="1"/>
+<text x="96" y="104" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30" fill="#aaa6a0" opacity="0">nada aqui está terminado.
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.0333;0.0633;0.94;1" dur="30.0s" repeatCount="indefinite"/>
+</text>
+<text x="96" y="150" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30" fill="#aaa6a0" opacity="0">nem a página,
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.0967;0.1267;0.94;1" dur="30.0s" repeatCount="indefinite"/>
+</text>
+<text x="96" y="196" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30" fill="#aaa6a0" opacity="0">nem o código,
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1600;0.1900;0.94;1" dur="30.0s" repeatCount="indefinite"/>
+</text>
+<text x="96" y="242" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30" fill="#aaa6a0" opacity="0">nem quem escreve.
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2233;0.2533;0.94;1" dur="30.0s" repeatCount="indefinite"/>
+</text>
+<text x="96" y="314" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34" fill="#f2f0eb" opacity="0">toda manobra começa pela queda.
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3200;0.3500;0.94;1" dur="30.0s" repeatCount="indefinite"/>
+</text>
+<text x="96" y="360" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34" fill="#f2f0eb" opacity="0">todo arquivo começa pela falta.
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3833;0.4133;0.94;1" dur="30.0s" repeatCount="indefinite"/>
+</text>
+<text x="96" y="406" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34" fill="#f2f0eb" opacity="0">toda versão de mim é o rascunho
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4467;0.4767;0.94;1" dur="30.0s" repeatCount="indefinite"/>
+</text>
+<text x="96" y="452" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34" fill="#f2f0eb" opacity="0">da próxima.
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5100;0.5400;0.94;1" dur="30.0s" repeatCount="indefinite"/>
+</text>
+<text x="96" y="524" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="34" fill="#f2f0eb" opacity="0">unfinished não é desculpa.
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6067;0.6367;0.94;1" dur="30.0s" repeatCount="indefinite"/>
+</text>
+<text x="96" y="592" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="64" font-weight="700" fill="#b52f2b" opacity="0">é direção.
+  <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6700;0.7000;0.94;1" dur="30.0s" repeatCount="indefinite"/>
+</text>
+</svg>

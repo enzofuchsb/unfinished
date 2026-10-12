@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 44" width="1200" height="44" role="img" aria-label="UNFINISHED, skate, música, estilo, identidade, em construção">
+<rect width="1200" height="44" fill="#b52f2b"/>
+<g font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="13" fill="#f2f0eb">
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="26s" repeatCount="indefinite"/>
+  <text x="0" y="28" textLength="1200" lengthAdjust="spacing"> UNFINISHED + SKATE + MÚSICA + ESTILO + IDENTIDADE + EM CONSTRUÇÃO +  UNFINISHED + SKATE + MÚSICA + ESTILO + IDENTIDADE + EM CONSTRUÇÃO + </text>
+  <text x="1200" y="28" textLength="1200" lengthAdjust="spacing"> UNFINISHED + SKATE + MÚSICA + ESTILO + IDENTIDADE + EM CONSTRUÇÃO +  UNFINISHED + SKATE + MÚSICA + ESTILO + IDENTIDADE + EM CONSTRUÇÃO + </text>
+</g>
+</svg>

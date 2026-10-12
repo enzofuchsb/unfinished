@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-label="UNFINISHED, um zine pessoal sobre skate, música, estilo e identidade">
+<title>UNFINISHED</title>
+<defs>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="3">
+      <animate attributeName="seed" values="1;2;3;4;5;6" dur="0.6s" repeatCount="indefinite" calcMode="discrete"/>
+    </feTurbulence>
+    <feColorMatrix type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="table" tableValues="0 0.16"/></feComponentTransfer>
+  </filter>
+  <clipPath id="reveal">
+    <rect x="0" y="0" width="1200" height="440">
+      <animate attributeName="width" from="0" to="1200" dur="2.2s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.7 0 0.2 1"/>
+    </rect>
+  </clipPath>
+</defs>
+
+<rect width="1200" height="440" fill="#080808"/>
+
+<!-- papel rasgado vermelho, à deriva -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0 0;-10 5;0 0" dur="9s" repeatCount="indefinite"/>
+  <polygon fill="#b52f2b" points="640,0 1200,0 1200,330 1150,300 1118,345 1060,270 1010,318 960,236 905,262 872,170 810,196 770,110 706,136"/>
+</g>
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0 0;8 -4;0 0" dur="11s" repeatCount="indefinite"/>
+  <polygon fill="#76201e" opacity="0.92" points="830,0 1200,0 1200,210 1130,176 1090,226 1030,160 985,196 940,120 880,140"/>
+</g>
+
+<!-- círculos de tinta -->
+<circle cx="940" cy="382" r="26" fill="#b52f2b"><animate attributeName="r" values="26;30;26" dur="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="1112" cy="392" r="13" fill="#b52f2b"><animate attributeName="r" values="13;16;13" dur="2.6s" repeatCount="indefinite"/></circle>
+<circle cx="56" cy="64" r="9" fill="#b52f2b"><animate attributeName="r" values="9;12;9" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="560" cy="48" r="5" fill="#b52f2b"/>
+
+<!-- kicker -->
+<line x1="100" y1="92" x2="128" y2="92" stroke="#b52f2b" stroke-width="2"/>
+<text x="140" y="97" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="19" fill="#aaa6a0">um diário visual, ainda em andamento</text>
+
+<!-- título: contorno fixo, cópia vermelha que falha, preenchimento que se revela -->
+<text x="100" y="262" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="150" textLength="1000" lengthAdjust="spacingAndGlyphs" fill="none" stroke="#f2f0eb" stroke-width="1.5">UNFINISHED</text>
+
+<text x="100" y="262" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="150" textLength="1000" lengthAdjust="spacingAndGlyphs" fill="#b52f2b" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.85;0.85;0;0" keyTimes="0;0.7;0.72;0.75;0.77;1" dur="6s" repeatCount="indefinite"/>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 0;8 -3;-6 2;0 0;0 0" keyTimes="0;0.7;0.72;0.75;0.77;1" dur="6s" repeatCount="indefinite"/>
+</text>
+
+<g clip-path="url(#reveal)">
+  <text x="100" y="262" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="150" textLength="1000" lengthAdjust="spacingAndGlyphs" fill="#f2f0eb">UNFINISHED</text>
+</g>
+
+<text x="104" y="312" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="22" fill="#c7c2ba">skate, música, estilo e identidade</text>
+
+<!-- etiqueta de papel -->
+<g transform="rotate(-1.5 0 370)">
+  <polygon fill="#f2f0eb" points="-10,346 470,340 482,356 462,374 -10,380"/>
+  <text x="104" y="366" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="15" letter-spacing="5" fill="#111">PERSONAL ZINE</text>
+</g>
+
+<!-- a única faísca verde -->
+<circle cx="104" cy="412" r="5" fill="#9bb34a">
+  <animate attributeName="opacity" values="1;1;0.15;1" keyTimes="0;0.5;0.75;1" dur="2s" repeatCount="indefinite"/>
+</circle>
+<text x="120" y="417" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="15" fill="#aaa6a0">em construção</text>
+
+<rect width="1200" height="440" fill="#000" fill-opacity="0" filter="url(#grain)" pointer-events="none"/>
+</svg>
