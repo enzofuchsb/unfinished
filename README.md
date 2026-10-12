@@ -60,7 +60,7 @@ A referência é uma revista independente: colagem, papel rasgado, ruído de imp
 | Preto | `#080808` | o fundo, o silêncio onde o resto aparece |
 | Papel | `#f2f0eb` | texto e recortes |
 | Vermelho | `#b52f2b` | o rasgo, o destaque, o que chama atenção |
-| Verde | `#9bb34a` | quase nunca |
+| Verde | `#9bb34a` | o ácido necessário |
 
 O verde aparece como uma faísca: um ponto, um cursor. Se estivesse em todo lugar, deixaria de ser sinal.
 
@@ -75,44 +75,13 @@ O verde aparece como uma faísca: um ponto, um cursor. Se estivesse em todo luga
 | **JavaScript** | interatividade, validações e manipulação de dados no front-end |
 | **Node.js** | back-end e API própria |
 | **MySQL** | banco de dados relacional |
-| **WebDataViz** | dashboard; o papel exato ainda será definido com as orientações do professor |
-
-Nenhuma API externa entra no projeto sem autorização. A única API aqui é a que eu mesmo construo em Node.js.
-
-## Onde as coisas estão hoje
-
-Esta lista é a parte menos poética do arquivo e a mais importante: o que está sem marcação ainda não existe.
-
-- [x] Conceito e identidade visual definidos
-- [x] Rascunho visual da Home (HTML e CSS)
-- [ ] História pessoal escolhida e escrita
-- [ ] Estrutura final das páginas
-- [ ] Cadastro e login com API em Node.js e MySQL (senhas com hash)
-- [ ] Dashboard com dados reais
-- [ ] Apresentação final
+| **WebDataViz** | API conectada com o banco de dados |
 
 ## O caminho
 
 <img src="assets/timeline.svg" alt="Seis semanas, de Start até a apresentação em 30 de novembro e 4 de dezembro" width="100%">
 
-| Semana | Foco |
-| --- | --- |
-| **S1, Start** | definição inicial do projeto e do tema |
-| **S2, Tema** | refinamento da proposta, documentação e organização do GitHub |
-| **S3, Início do site** | estrutura inicial, página Home e identidade visual |
-| **S4, Dados** | funcionalidades de dados, integração com o banco e organização do código |
-| **S5, Dashboard** | desenvolvimento, integração e validação do dashboard |
-| **S6, Apresentação** | slides, demonstração e ensaio. Apresentação em 30 de novembro e 4 de dezembro, cerca de 10 minutos |
-
 O cronograma é uma referência, não uma régua. Etapas podem andar antes, desde que nada atrase.
-
-## Princípios
-
-- Nada de API externa sem autorização do professor.
-- Autenticação de verdade: senha com hash no back-end, e não só uma tela bonita.
-- Estruturas de repetição e vetores onde fazem sentido, não por obrigação.
-- Código que eu consigo explicar linha por linha.
-- A imperfeição é estética. Bug não é.
 
 ## Como rodar
 
