@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="UNFINISHED — um arquivo pessoal sobre skate, música, estilo e identidade.">
+  <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+  <title>UNFINISHED</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+  <div class="page-wrap">
+
+    <!-- Cabeçalho e navegação -->
+    <header class="site-header">
+      <!-- O logo leva de volta ao início da página -->
+      <!-- A logo (imagem) fica antes do nome. alt vazio porque o texto ao lado já diz "UNFINISHED" -->
+      <a class="logo" href="#inicio">
+        <img class="logo-img" src="../img/favicon.png" alt="">UNFINISHED<span>®</span>
+      </a>
+
+      <!-- Cada link leva até uma seção identificada pelo seu id -->
+      <nav class="nav">
+        <a href="#manifesto">Manifesto</a>
+        <a href="#skate">Skate journal</a>
+        <a href="#arquivo">Arquivo pessoal</a>
+        <a href="#trajetoria">Trajetória</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- Hero: primeira seção visual do site -->
+      <section class="hero" id="inicio">
+        <div>
+          <div class="hero-kicker eyebrow">Skate zine / Edição 001</div>
+
+          <!-- O span aplica o efeito de contorno apenas em "finished" -->
+          <h1>Un<br><span class="hero-title-outline">finished</span></h1>
+
+          <p class="hero-copy">
+            Uma história inacabada. Minha história com o skate ainda está
+            acontecendo, e por isso só consigo contá-la em pedaços.
+          </p>
+
+          <a class="text-link" href="#manifesto">Explore a história ↓</a>
+        </div>
+
+        <!-- A imagem principal recebe etiquetas posicionadas pelo CSS -->
+        <div class="hero-image">
+          <img src="../img/hero.jpg" alt="manobra de skate">
+          <span class="image-label">Still in progress</span>
+          <span class="image-note">NOT A FINISHED STORY</span>
+        </div>
+      </section>
+
+      <!-- Faixa de palavras-chave do projeto -->
+      <div class="ticker" aria-label="Temas do projeto">
+        SKATE CULTURE &nbsp; ✳ &nbsp; PERSONAL ARCHIVE &nbsp; ✳ &nbsp;
+        MUSIC / STYLE / REFERENCES &nbsp; ✳ &nbsp; STILL IN PROGRESS &nbsp; ✳
+      </div>
+
+      <!-- Manifesto: explica o conceito do UNFINISHED -->
+      <section class="section" id="manifesto">
+        <h2>Manifesto</h2>
+        <p>
+          Todo skatista conhece o gosto do chão. <br> Cair, <br> sentar, <br> esperar a dor passar <br> e tentar de novo. <br> é assim que uma manobra nasce, e é assim que este site foi feito. <br><br>
+          UNFINISHED não é um portfólio e não é um final. <br> É um arquivo aberto de alguém que aprendeu a cair antes de aprender a acertar <br> e entendeu que nunca estar pronto não é falta. É movimento. <br><br>
+          Aqui cada página é uma tentativa, cada foto é um recorte e cada texto é um rascunho que ainda aceita correção. <br> A volta para casa sempre termina com sensação de missão cumprida, e logo começa a próxima. <br><br>
+          Este é o manifesto: contar a história enquanto ela acontece, sem esperar acertar.
+        </p>
+      </section>
+
+      <!-- Skate Journal: histórias e experiências relacionadas ao skate -->
+      <section class="section" id="skate">
+        <h2>Skate journal</h2>
+
+        <!-- grid-3 organiza os cards em três colunas pelo CSS -->
+        <div class="grid-3">
+          <article class="card">
+            <img src="../img/comeco.jpg" alt="eu pequeno com skate">
+            <h3>Como tudo começa</h3>
+            <p>
+              Antes de ser meu, o skate foi do meu pai. Aos seis anos ele me
+              apresentou o skate, e aos dez me entregou o dele: mais velho que
+              eu, e o melhor que já tive.
+            </p>
+          </article>
+
+          <article class="card">
+            <img src="../img/alem-shape.jpg" alt="eu e minha amiga andando de skate pelas ruas">
+            <h3>Além do shape</h3>
+            <p>
+              A pista, as ruas, a volta para casa. Cada lugar
+              virou um arquivo de pessoas. A rua, para mim, é liberdade e união.
+            </p>
+          </article>
+
+          <article class="card">
+            <img src="../img/depois.jpg" alt="shapes de skate">
+            <h3>Altos e baixos</h3>
+            <p>
+              A terrível descida, os roxos do corrimão, dois ligamentos
+              rompidos. Se não dá para evitar a queda, dá para
+              escolher onde cair.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Arquivo pessoal: música, estilo e referências -->
+      <section class="section" id="arquivo">
+        <h2>Arquivo pessoal</h2>
+
+        <div class="grid-3">
+          <article class="card" id="musica">
+            <img src="../img/soundtrack.jpg" alt="eu tocando guitarra">
+            <h3>Soundtrack</h3>
+            <p>
+              Rock e rap, mas principalmente rock. Deftones e Charlie Brown Jr.:
+              os dois falam de cair, e os dois insistem em continuar.
+            </p>
+          </article>
+
+          <article class="card" id="estilo">
+            <img src="../img/style.jpg" alt="grupo de amigos">
+            <h3>Personal style</h3>
+            <p>
+              Roupa rasgada não é desleixo. Cada rasgo no tênis conta uma
+              sessão que terminou sem ninguém se dar por vencido.
+            </p>
+          </article>
+
+          <article class="card" id="referencias">
+            <img src="../img/references.jpg" alt="loja de roupas skatistas">
+            <h3>References</h3>
+            <p>
+              Referências visuais e cultura alternativa que moldam o meu jeito
+              de olhar: do som que toca no fone à cultura que andava junto comigo para onde fosse.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Trajetória: linha do tempo da história pessoal -->
+      <section class="section" id="trajetoria">
+        <h2>In progress</h2>
+
+        <!-- A lista ordenada representa as etapas da trajetória -->
+        <ol class="timeline">
+          <li>
+            <h3>O começo</h3>
+            <p>
+              Seis anos, o skate do meu pai e um chão que parecia sempre mais
+              perto do que deveria. As manobras só vieram aos dez.
+            </p>
+          </li>
+
+          <li>
+            <h3>O que o skate me ensinou</h3>
+            <p>
+              O erro não é o fim, é parte do processo. Quem cai cem vezes por
+              causa de uma manobra aprende que o fracasso é uma etapa, e não
+              um veredito.
+            </p>
+          </li>
+
+          <li>
+            <h3>Continua...</h3>
+            <p>
+              Ainda não sei qual será a próxima manobra, a próxima fase, a
+              próxima versão de mim. A história continua, ainda sem ponto final.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Encerramento da página -->
+      <section class="closing">
+        <!-- Logo grande como "assinatura" do fim da página -->
+        <img class="closing-logo" src="../img/favicon.png" alt="Logo UNFINISHED: letra U em colagem de papel rasgado">
+        <h2>STILL</h2>
+        <h1>Un<span class="hero-title-outline">finished</span></h1>
+        <br>
+        <a class="text-link" href="#inicio">Voltar ao início ↑</a>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <img class="footer-logo" src="../img/favicon.png" alt="">
+    <p>UNFINISHED — Fuchs — 2026</p>
+  </footer>
+
+</body>
+</html>
